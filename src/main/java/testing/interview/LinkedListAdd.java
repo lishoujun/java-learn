@@ -5,12 +5,11 @@ import java.util.Date;
 import java.util.LinkedList;
 
 /**
+ * Print the time of linkedList and arrayList by add element 100000 times.
  * 
- * @author lishoujun 
- * https://github.com/lishoujun/java-learn
+ * @author lishoujun https://github.com/lishoujun/java-learn
  */
-public class LinkedListCycle {
-
+public class LinkedListAdd {
 	public static void main(String[] args) {
 		final int size = 100000;
 		LinkedList<Integer> linkedList = new LinkedList<>();
@@ -30,6 +29,8 @@ public class LinkedListCycle {
 		long arrayListEndTime = new Date().getTime();
 
 		System.out.println("arrayListTime:" + (arrayListEndTime - arrayListStartTime));
+
+		// for debug
 		try {
 			Thread.sleep(100000);
 		} catch (InterruptedException e) {
