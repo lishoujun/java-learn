@@ -1,10 +1,6 @@
 package testing.interview.hackerrank;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class EqualStacks {
 
